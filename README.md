@@ -13,11 +13,12 @@ Run the following command from within your local copy of this repository
 Assuming you're on a Ubuntu based system, please ensure you have the following packages installed:
 
 * latexmk
+* texlive-fonts-extra
+* texlive-fonts-recommended
 * texlive-latex-base
 * texlive-latex-extra
 * texlive-latex-recommended
-* texlive-fonts-recommended
 
 You can install them all by running the following command in a terminal:
 
-    sudo apt-get install latexmk texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-fonts-recommended
+    sudo apt-get install latexmk texlive-fonts-extra texlive-fonts-recommended texlive-latex-base texlive-latex-extra texlive-latex-recommended
